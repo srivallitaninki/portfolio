@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="chatgpt2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="logo1">
+        <img src="sasidhar.jpg" height="180px" width="200px" class="circular">
+      </div>
+        </div>
+        </div> 
+        </div>
+        <h1 class="king">Munta Tejaswini Malleswari</h1>
+        <h2 class="king"><span class="bolding"># </span>Front-End Developer</h2>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+  </header>
+  <div class="middle">
+  <section id="home" class="hero">
+    <div class="container">
+      <h2 class="name1">Welcome to My Portfolio</h2>
+      <br>
+      <p></p>
+      <a href="#contact" class="btn"><span class="get">Get in touch</span></a>
+      
+    </div>
+    <div class="resume">
+      <button class="btn btn-warning">Download CV</button>
+    </div>
+  </section>
+  </div>
+<div class="middle1">
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="name2">About Me</h2>
+      <br>
+      <p class="name3">Iam presently pursuing BTech third year in Information Technology  at Dhanekula Institute of engineering and technology, ganguru.
+        <br>
+        I am currently working as an intern at <span class="bolding">OASIS INFOBTYE</span> in the filed of Web Development and my role is Front-End Developer.
+        Iam good at programming Languages such as C++, Java and Python.
+        <br>
+        </p>   
+      <p  class="name3">I'm proficient in these Web Technologies:</p>
+      <ul class="kite">
+        <li class="name3">HTML</li>
+        <li class="name3">CSS</li>
+        <li class="name3">Bootstrap</li>
+        <li class="name3">JavaScript</li>
+        <li class="name3">React</li>    
+      </ul>
+    </p>
+    </div>
+  </section>
+  </div>
+  <section id="projects">
+  <div class="projects">
+    <h1 class="name2"> Major Projects</h1>
+    <br>
+    <div class="project1and2 d-flex flex-row">
+      <div class="one">
+        <img src="pro1.jpeg" height="220px" width="400px" id="myimage">
+        <p>Royal Villa Resorts Landing Page</p>
+        <a href="#ld1" class="btn btn-primary">Open</a>
+
+    </div>
+    <div class="two">
+      <img src="pro2.jpeg" height="220px" width="400px">
+      <p>Temperature Converter</p>
+      <button class="btn btn-primary">Open</button>
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="project3and4 d-flex flex-row">
+    <div class="three">
+      <img src="pro3.jpeg" height="220px" width="400px">
+      <p>SunRise Avenue Landing Page</p>
+      <button class="btn btn-primary">Open</button>
+
+  </div>
+  <div class="four">
+    <img src="PRO4.jpeg" height="220px" width="400px">
+    <p>Weather App</p>
+    <button class="btn btn-primary">Open</button>
+
+  </div>
+</div>
+</div>
+</section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="name">Contact Me</h2>
+       <br>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn btn-warning like">Say Hello!</button>
+      </form>
+    </div>
+
+  <footer>
+    <div class="container">
+        <h5 class="follow">Follow Me On</h5>
+        <br>
+        <div class="follow-box d-flex flex-row">
+          <div class="instagram">
+          <i class="fa fa-instagram" style="font-size:36px" id="insta"></i>
+          </div>
+          <div class="youtube-play">
+            <i class="fa fa-youtube-play" style="font-size:36px"></i>
+            </div>
+            <div class="twitter">
+              <i class="fa fa-twitter" style="font-size:36px"></i>
+            </div>
+        </div>
+        <br>
+      <p class="kike">&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</section>
+
+
+
+
+</body>
+</html>
+
+CSS:
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bree Serif";
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f1f1f1;
+  }
+  .name{
+    font-size: 30px;
+    padding-left:2px;
+    color:red;
+  }
+.name:hover{
+    color:limegreen;
+}
+.name1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.follow-box{
+    padding-left:420px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding:20px;
+  }
+  
+  header {
+    background-color: #cebeb9;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo1{
+    margin-top:20px;
+    border-radius: 20px;
+    height: 140 px;
+    width: 120px;
+    border-radius: 5px;
+    border:5px red;
+
+  }
+  .logo1 {
+    transition: 0.3s;
+  }
+  .logo1:hover {
+    transform: translate(0, -10px);
+  }
+.follow{
+    color:orange;  
+    font-size:30px;
+}
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left:1025px;
+    position: absolute;
+    margin-top:-350px;
+
+    
+  }
+  
+  .menu li {
+    margin-left: 25px;
+    background-color: transparent;
+    font-size: 25px;
+
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  .menu a:hover{
+    color: rgb(76, 0, 255);
+  }
+  
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    
+  }
+  
+  .about {
+    padding: 40px 0;
+  }
+.projects{
+    height:110vh;
+    width: 100vw;
+    background-color: #ae988a;
+    text-align: center;
+    padding-left:210px;
+
+}
+  
+  .contact {
+    color: #fff;
+    padding: 40px 0;
+    height: 400px;
+    width: 1500px;
+    padding-bottom:500px;
+    background-color: #d4e8dc;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact form button {
+    background-color:#d4e8dc;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:#d4e8dc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+.middle{
+  background-color:#e2e0d5;
+  
+}
+.middle1{
+  background-color:#989da6;
+}
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+      display: none;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu-icon:hover {
+      color: #ccc;
+    }
+  
+    .hero {
+      padding: 80px 0;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }
+
+.instagram{
+    margin-right:90px;
+    font-size:36px;
+    text-align: center;
+   
+}
+.youtube-play{
+    margin-right:90px;
+    font-size:36px;
+    text-align: center;
+    color:red;
+    
+}
+.twitter{
+    margin-right:90px;
+    font-size:36px;
+    text-align: center;
+    color: #00ACEE;
+}
+.instagram:hover{
+    
+    transform: translate(0,-10px);
+    
+}
+.kike{
+  font-family: "Bree Serif";
+  font-size: 18px;
+  color:black;
+}
+.twitter:hover{
+   
+    transform: translate(0,-10px);
+    
+}
+.youtube-play:hover{
+   
+    transform: translate(0,-10px);
+    
+}
+
+.name1:hover{
+    transition: 0.3s ease-in-out;
+  }
+.name1:hover {
+    transform: translate(0, -12px);
+    font-weight:bold;
+  }
+.get{
+    color:darkblue;
+    font-size: 25px;
+}
+.get:hover{
+    text-decoration:none;
+    color:orangered;
+}
+.name2{
+    text-align: center;
+    font-weight: bold;
+    color:orangered;
+    text-decoration:underline;
+}
+.bolding{
+    font-weight: bold;
+    color:red;
+    font-size: 35px;
+}
+.bolding1{
+    font-weight: bold;
+    color:orangered;
+    font-size: 40px;
+}
+.name3{
+    font-size: 25px;
+}
+.name3 ul li{
+    font-size: 50px;
+}
+.kite{
+    list-style-type: square;
+    padding-left:25px;
+}
+.one{
+
+  margin-left:100px;
+  /* border:2px red groove; */
+  padding:0px;
+  transition: 0.3s ease-in-out;
+  position: relative;
+
+}
+.three{
+
+    margin-left:100px;
+    /* border:2px red groove; */
+    padding:0px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+  
+  }
+.four{
+  margin-left:70px;
+  /* border:2px red groove; */
+   padding:0px;
+   transition: 0.3s ease-in-out;
+}
+.two{
+  margin-left:50px;
+  /* border:2px red groove; */
+   padding:0px;
+   transition: 0.3s ease-in-out;
+}
+  
+
+.text{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name2{
+  text-align: center;
+}
+.king{
+  padding-left:40px;
+}
+.circular{ 
+  border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; 
+  size:150px;
+
+}
